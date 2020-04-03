@@ -1,0 +1,21 @@
+.Createcard {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 100px;
+  input {
+    display: flex;
+    width: 65%;
+    height: 30%;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid lightgray;
+  }
+
+  button {
+    width: 100px;
+    align-self: center;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+}

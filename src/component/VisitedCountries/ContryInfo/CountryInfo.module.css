@@ -1,0 +1,28 @@
+.countryinfo {
+  border: 2px solid black;
+  width: 214px;
+  height: 390px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+  background-image: url("../../../static/images/shine.gif");
+  background-color: black;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.countryinfo:hover {
+  -webkit-box-shadow: 10px 10px 30px darkgray;
+          box-shadow: 10px 10px 30px darkgray;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.countryinfo h1,
+.countryinfo h2 {
+  margin-top: 40px;
+  font-size: 14px;
+  text-align: left;
+}
+/*# sourceMappingURL=CountryInfo.module.css.map */

@@ -1,0 +1,31 @@
+.Createcard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.Createcard input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  height: 30%;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid lightgray;
+}
+
+.Createcard button {
+  width: 100px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=CreateCard.module.css.map */

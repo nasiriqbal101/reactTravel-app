@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  h1, h2 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,41 @@
+.google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 4px #4885ed;
+  background-color: #4885ed;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 10px auto 0 auto;
+}
+
+.google:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 10px 3px #a9c3ec;
+          box-shadow: 0px 0px 10px 3px #a9c3ec;
+}
+
+.google img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.google button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+.google button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Login.module.css.map */
