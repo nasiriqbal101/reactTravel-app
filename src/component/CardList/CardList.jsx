@@ -114,13 +114,11 @@ export default class CardList extends Component {
     }
 
     render() {
-        console.log(this.state.allCountries);
         if (this.state.searchFocused) {
             return (
                 <>
                     <SearchBar onFocus={this.searchFocus} onBlur={this.searchBlur} searchText={this.state.searchText} setSearchText={this.setSearchText} />
                     {this.state.filteredCountries.map((country, index) => (
-                        // <div onClick={() => this.handleChange(country.name)}>
                         <div>
                             <SearchCountry country={country} key={index} />
                         </div>
